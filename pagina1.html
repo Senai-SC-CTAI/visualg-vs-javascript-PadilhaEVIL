@@ -9,30 +9,40 @@
 <link rel="stylesheet" href="style2.css"></head>
 <body>
     <style>
-        body{
-            text-align: center;
-        }
+       
         .code{
+            
             top: 40%;
             position: absolute;
             right: 0%;
+            font-size: small;
         }
         img{
-            width: 700px;
-            height: 350px;
+            text-align: left;
+           left: 0%;
+           width: 600px;
+           height: 300px;
         }
         .resultado{
             color: white;
+    
+        }
+        div{
+         text-align: center;
+
+
         }
     </style>
+    <div>
     <p>Digite um número:</p>
     <input id="num1" type="number"><br><br><br>
     <p>Digite outro número:</p>
     <input id="num2" type="number"><br><br>
     <button onclick="resultado()">Resultado</button><br><br>
     <p id="resultado">___</p><br><br><br>
-    <img src="codigo (2).png" alt="">
-    <div class="code">
+</div>
+    <img src="codigo (2).png" >
+    <div class="code"><br><br><br><br><br><br>
         <pre><code id="code-snippet">
             function resultado(){
                 var num1 = Number(document.getElementById("num1").value);
